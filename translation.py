@@ -6,10 +6,10 @@ see my <a href='https://rentry.co/prub9/raw'>suported urls</a> here before using
 <b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
 <b>[Jσιɳ συɾ ƈԋαɳɳҽʅ](https://t.me/AI_bot_projects)</b>
 <b>/help for more details..</b>
-[google](buttonurl:https://github.com/Gamer-AI-13/URLuploader-With-Hotstar/tree/master)"""
+[google](buttonurl://github.com/Gamer-AI-13/URLuploader-With-Hotstar/tree/master)"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
+    UPGRADE_TEXT = "<b>Jσιɳ συɾ ƈԋαɳɳҽʅ\n  @AI_bot_projects"
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
@@ -34,8 +34,9 @@ URL | filename | username | password"""
 --------
 Telegram ID: <code>{}</code>
 Plan name: Free User
-Expires on: 31/12/2020"""
+Expires on: 24ᵗʰ every month"""
     HELP_USER = """Hai am URL Uploader bot..
+see my <a href='https://rentry.co/prub9/raw'>suported urls</a> here
     
 1. Send url (Link|New Name with Extension).
 2. Send Custom Thumbnail (Optional).
@@ -44,14 +45,9 @@ Expires on: 31/12/2020"""
    DFile  - Give File with Screenshots
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
-   
-<b>👉 Join For New Movies :</b> 👉 <a href="https://t.me/joinchat/AAAAAEw1pO1bBX6ylAb0hQ">JOIN</a>
-
 --------
 Send /me to know current plan details
-
-Support Group : @MoviEzoNlysuppOrT
-© @MovieZonlYheRe"""
+Support Group : @AI_BOT_HELP """
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
