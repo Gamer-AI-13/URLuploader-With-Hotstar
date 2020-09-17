@@ -1,5 +1,22 @@
+from pyrogram import Filters, InlineKeyboardMarkup, InlineKeyboardButton
+
 class Translation(object):
-    START_TEXT = print("Hello,\ni'm a Telegram URL Upload Bot!\n\nsee my <a href='https://rentry.co/prub9/raw'>suported urls</a> here before using me 🤓  \n<b>Please send me any direct download URL Link (HOTSTAR), i can upload to telegram as File/Video</b>\n<b>[Jσιɳ συɾ ƈԋαɳɳҽʅ](https://t.me/AI_bot_projects)</b>\n\n<b>/help for more details..</b>\n\nMarkup.urlButton('❤️', 'http://telegraf.js.org'),")
+    START_TEXT =   await m.reply_text(
+        text=f"Hi there {m.from_user.first_name}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.",
+        quote=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('📌  Support Group', url='https://t.me/InFoTelGroup'),
+                    InlineKeyboardButton('🔖  Projects Channel', url='https://t.me/TGBotsZ')
+                ],
+                [
+                    InlineKeyboardButton('💡  Source Code', url='https://github.com/TGExplore/Screenshot-Bot'),
+                    InlineKeyboardButton('👨  Master', url='https://t.me/odbots')
+                ]
+            ]
+        )
+    )
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>Jσιɳ συɾ ƈԋαɳɳҽʅ\n  @AI_bot_projects"
@@ -11,8 +28,8 @@ URL | filename | username | password"""
     UPLOAD_START = "trying to upload"
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @moviesonlydiscussion"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @moviesonlydiscussion \nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. Join : @AI_BOT_HELP"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nJoin : @AI_bot_projects \nUploaded in {} seconds."
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}. Free Users can only upload: {}\nPlease /upgrade your subscription.\nIf you think this is a bug, please contact <a href='https://telegram.dog/ThankTelegram'>@SpEcHlDe</a>"
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
