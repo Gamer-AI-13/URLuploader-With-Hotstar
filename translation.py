@@ -1,17 +1,12 @@
 class Translation(object):
-    START_TEXT = inline_keyboard = []
-    inline_keyboard.append([
-        pyrogram.InlineKeyboardButton(
-            text="read this?",
-            url="https://t.me/AI_bot_projects/3"
-        )
-    ])
-    reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
-    await message.reply_text(
-        "please use @TGrenamebyAI_bot",
-        quote=True,
-        reply_markup=reply_markup
-    )
+    START_TEXT = """Hello,
+    
+i'm a Telegram URL Upload Bot!
+see my <a href='https://rentry.co/prub9/raw'>suported urls</a> here before using me 🤓   
+<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+<b>[Jσιɳ συɾ ƈԋαɳɳҽʅ](https://t.me/AI_bot_projects)</b>
+<b>/help for more details..</b>
+[google](buttonurl:https://github.com/Gamer-AI-13/URLuploader-With-Hotstar/tree/master)"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
