@@ -1,22 +1,13 @@
 from pyrogram import Filters, InlineKeyboardMarkup, InlineKeyboardButton
 
 class Translation(object):
-    START_TEXT = await m.reply_text(
-        text=f"Hi there {m.from_user.first_name}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.",
-        quote=True,
-        reply_markup=InlineKeyboardMarkup(
-            [
-                [
-                    InlineKeyboardButton('📌  Support Group', url='https://t.me/InFoTelGroup'),
-                    InlineKeyboardButton('🔖  Projects Channel', url='https://t.me/TGBotsZ')
-                ],
-                [
-                    InlineKeyboardButton('💡  Source Code', url='https://github.com/TGExplore/Screenshot-Bot'),
-                    InlineKeyboardButton('👨  Master', url='https://t.me/odbots')
-                ]
-            ]
-        )
-    )
+    START_TEXT = """Hello,
+    
+i'm a Telegram URL Upload Bot!
+see my <a href='https://rentry.co/prub9/raw'>suported urls</a> here before using me 🤓   
+<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+<b>[Jσιɳ συɾ ƈԋαɳɳҽʅ](https://t.me/AI_bot_projects)</b>
+<b>/help for more details..</b>"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>Jσιɳ συɾ ƈԋαɳɳҽʅ\n  @AI_bot_projects"
@@ -36,9 +27,9 @@ URL | filename | username | password"""
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = " "
+    CUSTOM_CAPTION_UL_FILE = "file_name \n©️@HotstardownloaderbyAI_bot "
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
-    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
+    NO_VOID_FORMAT_FOUND = "ERROR...\n<b>HotstardownloaderbyAI</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
     CURENT_PLAN_DETAILS = """Current plan details
 --------
