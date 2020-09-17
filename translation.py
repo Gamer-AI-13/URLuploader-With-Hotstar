@@ -1,6 +1,5 @@
 class Translation(object):
-    START_TEXT = async def rename_message_f(client, message):
-    inline_keyboard = []
+    START_TEXT = inline_keyboard = []
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
             text="read this?",
