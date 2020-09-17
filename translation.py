@@ -1,7 +1,7 @@
 from pyrogram import Filters, InlineKeyboardMarkup, InlineKeyboardButton
 
 class Translation(object):
-    START_TEXT =   await m.reply_text(
+    START_TEXT = await m.reply_text(
         text=f"Hi there {m.from_user.first_name}.\n\nI'm Screenshot Generator Bot. I can provide screenshots from your video files with out downloading the entire file (almost instantly). For more details check /help.",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
