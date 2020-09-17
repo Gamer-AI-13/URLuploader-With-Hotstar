@@ -1,12 +1,5 @@
 class Translation(object):
-    START_TEXT = """Hello,
-    
-i'm a Telegram URL Upload Bot!
-see my <a href='https://rentry.co/prub9/raw'>suported urls</a> here before using me 🤓   
-<b>Please send me any direct download URL Link (HOTSTAR), i can upload to telegram as File/Video</b>
-<b>[Jσιɳ συɾ ƈԋαɳɳҽʅ](https://t.me/AI_bot_projects)</b>
-<b>/help for more details..</b>
-Markup.urlButton('❤️', 'http://telegraf.js.org'),"""
+    START_TEXT = print("Hello,\ni'm a Telegram URL Upload Bot!\n\nsee my <a href='https://rentry.co/prub9/raw'>suported urls</a> here before using me 🤓  \n<b>Please send me any direct download URL Link (HOTSTAR), i can upload to telegram as File/Video</b>\n<b>[Jσιɳ συɾ ƈԋαɳɳҽʅ](https://t.me/AI_bot_projects)</b>\n\n<b>/help for more details..</b>\n\nMarkup.urlButton('❤️', 'http://telegraf.js.org'),")
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>Jσιɳ συɾ ƈԋαɳɳҽʅ\n  @AI_bot_projects"
