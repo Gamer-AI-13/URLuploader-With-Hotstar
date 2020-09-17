@@ -1,13 +1,18 @@
 class Translation(object):
-    START_TEXT = """Hello,
-This is a Telegram URL Upload Bot made by @prgofficial
-
-<b>Please send me any Direct download URL link, I can upload to telegram as File/Video</b>
-
-/help for more details..
-
-Support Group : @moviesonlydiscussion
-© @prgofficial"""
+    START_TEXT = async def rename_message_f(client, message):
+    inline_keyboard = []
+    inline_keyboard.append([
+        pyrogram.InlineKeyboardButton(
+            text="read this?",
+            url="https://t.me/AI_bot_projects/3"
+        )
+    ])
+    reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
+    await message.reply_text(
+        "please use @TGrenamebyAI_bot",
+        quote=True,
+        reply_markup=reply_markup
+    )
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>👉 Create own Clone Bot.. </b>  /help for Details"
