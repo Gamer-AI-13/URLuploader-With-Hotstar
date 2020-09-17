@@ -3,10 +3,10 @@ class Translation(object):
     
 i'm a Telegram URL Upload Bot!
 see my <a href='https://rentry.co/prub9/raw'>suported urls</a> here before using me 🤓   
-<b>Please send me any direct download URL Link, i can upload to telegram as File/Video</b>
+<b>Please send me any direct download URL Link (HOTSTAR), i can upload to telegram as File/Video</b>
 <b>[Jσιɳ συɾ ƈԋαɳɳҽʅ](https://t.me/AI_bot_projects)</b>
 <b>/help for more details..</b>
-[google](buttonurl://github.com/Gamer-AI-13/URLuploader-With-Hotstar/tree/master)"""
+Markup.urlButton('❤️', 'http://telegraf.js.org'),"""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
     UPGRADE_TEXT = "<b>Jσιɳ συɾ ƈԋαɳɳҽʅ\n  @AI_bot_projects"
@@ -46,7 +46,9 @@ see my <a href='https://rentry.co/prub9/raw'>suported urls</a> here
    Video  - Give File as video without Screenshots
    DFile  - Give File without Screenshots
 --------
+
 Send /me to know current plan details
+
 Support Group : @AI_BOT_HELP """
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
