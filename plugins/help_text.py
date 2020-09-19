@@ -65,7 +65,7 @@ async def get_me_info(bot, update):
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
 async def start(bot, m):
     await m.reply_text(
-        text=f"Hello,\n\ni'm a Hotstar Downloader Bot!   \n\n<b>Please send me any direct hotstar Link (free), i can upload to telegram as File/Video</b> \n<b>/help if you have any doubt in using me..</b>",
+        text=f"Hello,\n\ni'm a Hotstar Downloader Bot!   \n\n<b>Please send me any direct hotstar Link , i can upload to telegram as File/Video</b> \n\n<b>Note:- </b> \nOnly Free Content Support,\nDRM Protect And Premium/VIP Content Not support\n\n<b>/help if you have any doubt in using me..</b>",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
