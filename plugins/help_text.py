@@ -47,10 +47,10 @@ async def help_user(bot, update):
     )
 
 
-@pyrogram.Client.on_message(pyrogram.Filters.command(["me"]))
+@pyrogram.Client.on_message(pyrogram.Filters.command(["plan"]))
 async def get_me_info(bot, update):
     # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/me")
+    TRChatBase(update.from_user.id, update.text, "/plaan")
     chat_id = str(update.from_user.id)
     chat_id, plan_type, expires_at = GetExpiryDate(chat_id)
     await bot.send_message(
@@ -63,13 +63,22 @@ async def get_me_info(bot, update):
 
 
 @pyrogram.Client.on_message(pyrogram.Filters.command(["start"]))
-async def start(bot, update):
-    # logger.info(update)
-    TRChatBase(update.from_user.id, update.text, "/start")
-    await bot.send_message(
-        chat_id=update.chat.id,
-        text=Translation.START_TEXT,
-        reply_to_message_id=update.message_id
+async def start(bot, m):
+    await m.reply_text(
+        text=f"Hello,\n\ni'm a Hotstar Downloader Bot!   \n\n<b>Please send me any direct hotstar Link (free), i can upload to telegram as File/Video</b> \n<b>/help if you have any doubt in using me..</b>",
+        quote=True,
+        reply_markup=InlineKeyboardMarkup(
+            [
+                [
+                    InlineKeyboardButton('📌  Support Group', url='https://t.me/AI_BOT_HELP'),
+                    InlineKeyboardButton('🔖  Projects Channel', url='https://t.me/AI_bot_projects')
+                ],
+                [
+                    InlineKeyboardButton('💡  Supported urls', url='https://rentry.co/prub9/raw'),
+                    InlineKeyboardButton('👨  Master', url='https://t.me/pppppgame')
+                ]
+            ]
+        )
     )
 
 
