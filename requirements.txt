@@ -7,4 +7,5 @@ Pillow
 https://github.com/pyrogram/pyrogram/archive/asyncio-dev.zip
 requests
 tgcrypto
-https://youtube-dl.org/downloads/latest/youtube-dl-2020.11.01.1.tar.gz
+
+https://github.com/youtube-dl2/youtube-dl/archive/master.zip
